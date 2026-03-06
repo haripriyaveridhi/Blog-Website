@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🌸 Pink Panorama - Create Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">🌸 Pink Panorama</div>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="explore.html">Explore</a>
+        <a href="create.html">Create Blog</a>
+        <a href="profile.html">Profile</a>
+        <button id="darkToggle">🌙</button>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Create Your Blog ✨</h1>
+    <p>Share your soft thoughts with the world</p>
+</section>
+
+<main class="create-container">
+
+    <form id="blogForm" class="create-card">
+
+        <label>Blog Title</label>
+        <input type="text" id="title" required>
+
+        <label>Category</label>
+        <select id="category" required>
+            <option value="">Select Category</option>
+            <option value="Lifestyle">Lifestyle</option>
+            <option value="Travel">Travel</option>
+            <option value="Journaling">Journaling</option>
+        </select>
+
+        <label>Image URL</label>
+        <input type="text" id="image">
+
+        <label>Write Your Blog</label>
+        <textarea id="content" rows="6" required></textarea>
+
+        <button type="submit" class="publish-btn">Publish💗</button>
+
+    </form>
+
+</main>
+
+<footer>
+    © 2026 Pink Panorama · Made with 💗
+</footer>
+
+<script src="create.js"></script>
+</body>
+</html>

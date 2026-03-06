@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🌸 Pink Panorama - Explore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">🌸 Pink Panorama</div>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="explore.html">Explore</a>
+        <a href="create.html">Create Blog</a>
+        <a href="profile.html">Profile</a>
+        <button id="darkToggle">🌙</button>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Explore Blogs 💗</h1>
+    <p>Find stories by category, search, or sort</p>
+</section>
+
+<main>
+
+    <!-- Search + Filter + Sort Controls -->
+    <div class="explore-controls">
+
+        <input type="text" id="searchExplore" placeholder="Search blogs... 💗">
+
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="Lifestyle">Lifestyle</option>
+            <option value="Travel">Travel</option>
+            <option value="Journaling">Journaling</option>
+        </select>
+
+        <select id="sortOption">
+            <option value="default">Sort By</option>
+            <option value="title">Title A-Z</option>
+            <option value="date">Newest First</option>
+        </select>
+
+    </div>
+
+    <div class="container" id="blogContainer">
+
+        <!-- Card 1 -->
+        <div class="blog-card" 
+             data-title="Pink Morning Vibes"
+             data-category="Lifestyle"
+             data-date="2026-02-24">
+
+            <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7">
+
+            <div class="blog-content">
+                <h2>Pink Morning Vibes</h2>
+                <p class="date">📅 24 Feb 2026</p>
+                <p>Slow peaceful mornings with pink skies 🌸</p>
+
+                <div class="blog-actions">
+                    <button class="like-btn">❤️ <span>0</span></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="blog-card" 
+             data-title="Sunset Travel Diaries"
+             data-category="Travel"
+             data-date="2026-02-20">
+
+            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+
+            <div class="blog-content">
+                <h2>Sunset Travel Diaries</h2>
+                <p class="date">📅 20 Feb 2026</p>
+                <p>Chasing sunsets and pink horizons 🌅</p>
+
+                <div class="blog-actions">
+                    <button class="like-btn">❤️ <span>0</span></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="blog-card" 
+             data-title="Healing Through Journaling"
+             data-category="Journaling"
+             data-date="2026-02-18">
+
+            <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5">
+
+            <div class="blog-content">
+                <h2>Healing Through Journaling</h2>
+                <p class="date">📅 18 Feb 2026</p>
+                <p>Writing your heart out 💕</p>
+
+                <div class="blog-actions">
+                    <button class="like-btn">❤️ <span>0</span></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+    © 2026 Pink Panorama · Made with 💗
+</footer>
+
+<script src="explore.js"></script>
+</body>
+</html>
